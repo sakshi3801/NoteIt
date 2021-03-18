@@ -1,0 +1,118 @@
+
+.bg-img{
+    height: 705px;
+    background-image: url(bg7.jpg);
+    /* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pxfuel.com%2Fen%2Fsearch%3Fq%3Ddrawing%26page%3D2&psig=AOvVaw2tFjNHjRgiXX75kLcn772G&ust=1616050308452000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCe4tnetu8CFQAAAAAdAAAAABAD */
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    color: crimson;
+    position: relative;
+    top: 170px;
+    left: 30px;
+   
+}
+
+.desc{
+    position: relative;
+    top: 220px;
+    left: 30px;
+    color: crimson;
+}
+
+span{
+   color: #fed049;
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+    font-size: 2.5rem;
+    color: crimson;
+  
+}
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.nav-item
+{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: crimson;
+  font-weight: 600;
+}
+
+.enter{
+  background-color: crimson;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#items{
+  background-color: #fed049;
+  width: 100%;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 50px;
+}
+#add{
+  margin-top: 10px;
+  background-color: #16a596;
+  
+}
+
+#clear{
+ margin-left: 10px;
+ margin-top: 10px;
+ background-color: #16a596;
+}
+
+#delete{
+
+  background-color: gray;
+}
+
+.footer {
+height: 80px;
+
+padding-top: 20px;
+padding-bottom: 20px;
+
+
+ margin-top: 50px;
+color: #16a596;
+text-align: center;
+}
+
+.nav-link:hover{
+  color: #fed049;
+}
+
+.navbar-brand:hover{
+  color: crimson;
+}
+
+.top{
+background-color: #e8e8e8;
+  margin: 0px;
+}
+

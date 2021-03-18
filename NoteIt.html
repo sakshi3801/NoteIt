@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/all.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteIt</title>
+    <link rel="stylesheet" href="NoteIt.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Redressed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="top">
+  <div class="bg-img">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="">Note<span>It</span> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#entry">Mark</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#items">List</a>
+          </li>
+      </ul>
+      </div>
+  </nav>
+    <h1 class="title">A goal without a plan<br> is just <span>a wish!</span></h1>
+    <h3 class="desc">Now stay organized and keep a track of your day-to-day activities with Note<span>It</span>  <br><span>an efficient and easy to use TODOs list.</span> </h3>
+  </div>
+
+
+
+    <div class="container my-4">
+      <div class="enter" id="entry" >
+  
+   
+            <div class="form-group">
+              <label for="title" style="font-family: 'Redressed', cursive; font-size: 35px; color: #16a596;" >Title</label>
+              <input type="text" class="form-control" id="title" aria-describedby="title">
+        
+            </div>
+            <div class="form-group">
+              <!-- #92967d -->
+                <label for="description" style="font-family: 'Redressed', cursive; font-size: 35px; color:#16a596;">Description</label>
+                <textarea class="form-control" rows="5" id="description"></textarea>
+              </div>
+            <button id="add" class="btn btn-secondary" style="margin-right: 20px;">Add to list</button>
+            <button  id="clear" class="btn btn-secondary" onclick="clearStorage()">Clear list</button>  
+          </div>
+
+          <div id="items" style="font-family: 'Ubuntu', sans-serif;">
+              <h2 style="color: crimson; font-family: 'Redressed', cursive; font-size: 35px; padding-bottom: 10px;">Your Items</h2>
+              <table class="table">
+                <thead style="color: #16a596;">
+                  <tr>
+                    <th scope="col">S.no</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Description</th>
+                
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="tableBody" style="color: crimson;" >
+                </tbody>
+              </table>
+          </div>
+
+
+    </div> 
+
+    <div class="footer">
+      <i class=" ic fab fa-twitter" style="padding: 10px;"></i> <i class="ic fab fa-facebook-f" style="padding: 10px;"></i> <i class="ic fab fa-instagram"  style="padding: 10px;"></i> <i class="ic fas fa-envelope"  style="padding: 10px;"></i><br />
+      <p style="display: inline;">© Copyright 2021 <p style="display: inline; color: crimson;">Note</p><span>It</span> </p>
+    </div>
+
+  </div>
+    <script src="NoteIt.js"></script>
+</body>
+</html>
